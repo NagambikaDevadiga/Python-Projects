@@ -8,6 +8,7 @@ while(n!=random_num):
     if(n>random_num):
         print("Lower number please!")
         guesses+=1
+
     elif(n<random_num):
         print("Higher number please")
         guesses+=1
